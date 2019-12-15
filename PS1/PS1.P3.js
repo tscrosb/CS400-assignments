@@ -1,3 +1,0 @@
-const weird = (inputString, inputFunction) => {
-
-}
