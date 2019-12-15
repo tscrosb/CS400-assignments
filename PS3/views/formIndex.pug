@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+
+    <form onsubmit= "return results();" method= "post" id = 'wordId'>
+
+    <h3> Enter Word:</h3>
+    <input id="word" type="text" name="wordName" />
+    </form>
+
+    <script>
+    var wordVar = document.getElementById('word').value();
+    document.getElementById('word').submit()
+    </script>
